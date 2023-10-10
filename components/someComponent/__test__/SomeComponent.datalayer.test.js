@@ -3,7 +3,7 @@ import SomeComponentDatalayer from '../SomeComponent.datalayer';
 
 describe('SomeComponentDatalayer', () => {
   it('should render', () => {
-    let wrapper = (<SomeComponentDatalayer/>);
+    let wrapper = shallow(<SomeComponentDatalayer/>);
 
     expect(wrapper).toMatchSnapshot();
   });
