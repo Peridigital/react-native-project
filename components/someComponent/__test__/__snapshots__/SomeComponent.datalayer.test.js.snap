@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SomeComponentDatalayer should render 1`] = `<SomeComponentDatalayer />`;
+exports[`SomeComponentDatalayer should render 1`] = `
+<SomeComponent
+  isActive={false}
+  label="hello world"
+  toggleIsActive={[Function]}
+/>
+`;
