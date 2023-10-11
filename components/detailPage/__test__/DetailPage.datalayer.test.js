@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
 import React from 'react'
 import { shallow } from '../../../utils/testing'
-import SomeComponentDatalayer from '../SomeComponent.datalayer'
+import DetailPageDatalayer from '../DetailPage.datalayer'
 
-describe('SomeComponentDatalayer', () => {
+describe('DetailPageDatalayer', () => {
   it('should render', () => {
-    const wrapper = shallow(<SomeComponentDatalayer/>)
+    const wrapper = shallow(<DetailPageDatalayer/>)
 
     expect(wrapper).toMatchSnapshot()
   })

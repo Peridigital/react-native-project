@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListPage should render 1`] = `
+<View
+  style={
+    {
+      "gap": 15,
+    }
+  }
+>
+  <Text>
+     Hi there
+  </Text>
+  <Memo(Pressable)
+    onPress={[Function]}
+  >
+    <Text>
+      Click here
+    </Text>
+  </Memo(Pressable)>
+</View>
+`;

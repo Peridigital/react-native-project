@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 import React from 'react'
-import { describe, it, expect } from 'jest'
 import { shallow } from '../../../utils/testing'
 import SomeComponent from '../SomeComponent'
 

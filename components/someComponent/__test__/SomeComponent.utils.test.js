@@ -1,4 +1,4 @@
-import { describe, it, expect, jest } from 'jest'
+/* eslint-disable no-undef */
 import { generateToggleIsActive } from '../SomeComponent.utils'
 
 describe('generateToggleIsActive', () => {
