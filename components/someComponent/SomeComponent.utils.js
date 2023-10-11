@@ -7,8 +7,8 @@
  *
  * @returns {Function} callback - callback that toggles the state
  */
-export function generateToggleIsActive({ isActive, setIsActive }) {
+export function generateToggleIsActive ({ isActive, setIsActive }) {
   return () => {
-    setIsActive(!isActive);
+    setIsActive(!isActive)
   }
 }

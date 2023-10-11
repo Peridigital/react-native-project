@@ -1,13 +1,13 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native'
 
 export const style = StyleSheet.create({
   button: {
     backgroundColor: 'orange',
-    padding: 10,
+    padding: 10
   },
   container: {
-    gap: 15,
-  },
-});
+    gap: 15
+  }
+})
 
-export default style;
+export default style

@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { useQuery } from '@apollo/client';
-import SomeComponent from './SomeComponent';
-import {generateToggleIsActive} from "./SomeComponent.utils"
+import React, { useState } from 'react'
+import SomeComponent from './SomeComponent'
+import { generateToggleIsActive } from './SomeComponent.utils'
 
-export function SomeComponentDatalayer(props) {
-  const [isActive, setIsActive] = useState(false);
+export function SomeComponentDatalayer (props) {
+  const [isActive, setIsActive] = useState(false)
 
   return (
     <SomeComponent
@@ -12,10 +11,10 @@ export function SomeComponentDatalayer(props) {
       isActive={isActive}
       toggleIsActive={generateToggleIsActive({
         isActive,
-        setIsActive,
+        setIsActive
       })}
     />
-  );
+  )
 }
 
-export default SomeComponentDatalayer;
+export default SomeComponentDatalayer
