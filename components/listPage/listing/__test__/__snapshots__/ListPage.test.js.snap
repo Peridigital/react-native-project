@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing should render 1`] = `
+<View>
+  <Memo(Pressable)
+    onPress={[Function]}
+  >
+    <Text />
+  </Memo(Pressable)>
+</View>
+`;

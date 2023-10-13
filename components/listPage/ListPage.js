@@ -3,12 +3,14 @@ import { noop } from 'lodash'
 import {
   View,
   Text,
-  Pressable
+  Pressable,
+  FlatList
 } from 'react-native'
 import PropTypes from 'prop-types'
 import style from './ListPage.style'
+import { generateListingComponent } from './ListPage.utils'
 
-export function ListPage ({ navigateToDetails }) {
+export function ListPage ({ starships, navigateToDetails }) {
   return (
     <View style={style.container}>
       <Text> Hi there</Text>
@@ -16,15 +18,21 @@ export function ListPage ({ navigateToDetails }) {
         onPress={navigateToDetails}
         style={style.button}
       ><Text>Click here</Text></Pressable>
+      <FlatList
+          data={starships}
+          renderItem={generateListingComponent(navigateToDetails)}
+        />
     </View>
   )
 }
 
 ListPage.propTypes = {
+  starships: PropTypes.array,
   navigateToDetails: PropTypes.func
 }
 
 ListPage.defaultProps = {
+  starships: undefined,
   navigateToDetails: noop
 }
 

@@ -7,6 +7,11 @@ jest.mock('@react-navigation/native', () => ({
   useNavigation: jest.fn()
 }))
 
+jest.mock('@apollo/client', () => ({
+  useQuery: jest.fn(() => ({ })),
+  gql: jest.fn()
+}))
+
 describe('ListPageDatalayer', () => {
   it('should render', () => {
     const wrapper = shallow(<ListPageDatalayer/>)
