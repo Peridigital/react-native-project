@@ -1,22 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import SomeComponent from './components/someComponent'
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import ListPage from './components/listPage'
+import DetailPage from './components/detailPage'
+import * as Linking from 'expo-linking'
 
-export default function App() {
+const prefix = Linking.createURL('/')
+
+const Stack = createNativeStackNavigator()
+
+export default function App () {
+  const linking = {
+    prefixes: [prefix],
+    config: {
+      screens: {
+        Home: '',
+        Details: 'details/:id'
+      }
+    }
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your apps!</Text>
-      <StatusBar style="auto" />
-      <SomeComponent />
-    </View>
-  );
+    <NavigationContainer linking={linking}>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={ListPage} />
+        <Stack.Screen name="Details" component={DetailPage} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

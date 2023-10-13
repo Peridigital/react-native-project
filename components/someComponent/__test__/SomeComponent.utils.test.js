@@ -1,19 +1,20 @@
-import {generateToggleIsActive} from "../SomeComponent.utils"
+/* eslint-disable no-undef */
+import { generateToggleIsActive } from '../SomeComponent.utils'
 
-describe("generateToggleIsActive", () => {
+describe('generateToggleIsActive', () => {
   it('should toggle from true to false', () => {
-    const setIsActive = jest.fn();
+    const setIsActive = jest.fn()
 
-    generateToggleIsActive({ isActive: true, setIsActive })();
+    generateToggleIsActive({ isActive: true, setIsActive })()
 
-    expect(setIsActive).toHaveBeenCalledWith(false);
-  });
+    expect(setIsActive).toHaveBeenCalledWith(false)
+  })
 
   it('should toggle from false to true', () => {
-    const setIsActive = jest.fn();
+    const setIsActive = jest.fn()
 
-    generateToggleIsActive({ isActive: false, setIsActive })();
+    generateToggleIsActive({ isActive: false, setIsActive })()
 
-    expect(setIsActive).toHaveBeenCalledWith(true);
-  });
-});
+    expect(setIsActive).toHaveBeenCalledWith(true)
+  })
+})

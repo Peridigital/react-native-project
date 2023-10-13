@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailPage should render 1`] = `
+<View
+  style={
+    {
+      "gap": 15,
+    }
+  }
+>
+  <Text>
+     Hi there
+  </Text>
+</View>
+`;

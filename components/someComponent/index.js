@@ -1,3 +1,3 @@
-import SomeComponent from './SomeComponent.datalayer';
+import SomeComponent from './SomeComponent.datalayer'
 
-export default SomeComponent;
+export default SomeComponent
