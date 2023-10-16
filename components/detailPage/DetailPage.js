@@ -20,7 +20,6 @@ DetailPage.propTypes = {
 }
 
 DetailPage.defaultProps = {
-  starship: undefined
 }
 
 export default DetailPage

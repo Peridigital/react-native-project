@@ -24,7 +24,6 @@ Listing.propTypes = {
 }
 
 Listing.defaultProps = {
-  starship: undefined,
   navigateToDetails: noop
 }
 

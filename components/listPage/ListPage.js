@@ -32,7 +32,6 @@ ListPage.propTypes = {
 }
 
 ListPage.defaultProps = {
-  starships: undefined,
   navigateToDetails: noop
 }
 
