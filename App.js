@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import ListPage from './components/listPage'
 import DetailPage from './components/detailPage'
 import * as Linking from 'expo-linking'
+import colors from './utils/theme'
 
 const prefix = Linking.createURL('/')
 
@@ -28,7 +29,12 @@ export default function App () {
   return (
     <ApolloProvider client={apolloClient}>
       <NavigationContainer linking={linking}>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{
+          headerStyle: {
+            backgroundColor: colors.secondaryBackground
+          },
+          headerTintColor: colors.primaryText
+        }}>
           <Stack.Screen name="Home" component={ListPage} />
           <Stack.Screen name="Details" component={DetailPage} />
         </Stack.Navigator>

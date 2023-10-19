@@ -2,6 +2,7 @@
 
 exports[`generateListingComponent should toggle from true to false 1`] = `
 <Listing
+  hasFontsLoaded={false}
   navigateToDetails={[Function]}
   starship={
     {

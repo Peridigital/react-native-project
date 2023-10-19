@@ -11,6 +11,9 @@ jest.mock('@apollo/client', () => ({
   useQuery: jest.fn(() => ({ })),
   gql: jest.fn()
 }))
+jest.mock('@expo-google-fonts/dev', () => ({
+  useFonts: jest.fn(() => ([]))
+}))
 
 describe('ListPageDatalayer', () => {
   it('should render', () => {

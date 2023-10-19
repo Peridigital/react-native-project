@@ -23,12 +23,13 @@ export function generateNavigateToDetailsWithId ({ navigation }) {
  * generateListingComponent. Returns callback to render a Listing component for use in a list
  *
  * @param {Function} navigateToDetails - Callback function that navigates to that ship's detail page
+ * @param {Boolean} hasFontsLoaded - From the useFont hook that says if the fonts have been loaded
  *
  * @returns {Function} callback - Callback to render a Listing component
  */
-export function generateListingComponent (navigateToDetails) {
+export function generateListingComponent (navigateToDetails, hasFontsLoaded) {
   const wrapper = ({ item }) => {
-    return <Listing starship={item} navigateToDetails={navigateToDetails(item.id)}/>
+    return <Listing starship={item} navigateToDetails={navigateToDetails(item.id)} hasFontsLoaded={hasFontsLoaded}/>
   }
 
   return wrapper

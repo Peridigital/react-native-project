@@ -4,20 +4,11 @@ exports[`ListPage should render 1`] = `
 <View
   style={
     {
+      "backgroundColor": "#0C0D12",
       "gap": 15,
     }
   }
 >
-  <Text>
-     Hi there
-  </Text>
-  <Memo(Pressable)
-    onPress={[Function]}
-  >
-    <Text>
-      Click here
-    </Text>
-  </Memo(Pressable)>
   <FlatList
     renderItem={[Function]}
   />
