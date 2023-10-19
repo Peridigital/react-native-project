@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */ // The linter doesn't like the fonts for some reason
 import React from 'react'
 import { noop } from 'lodash'
 import {
@@ -6,14 +7,21 @@ import {
   Pressable
 } from 'react-native'
 import PropTypes from 'prop-types'
+import {
+  useFonts,
+  Orbitron_400Regular
+} from '@expo-google-fonts/dev'
+import style from './Listing.style'
 
 export function Listing ({ starship, navigateToDetails }) {
-  console.log('hello')
+  const [fontsLoaded] = useFonts({ Orbitron_400Regular })
   return (
-    <View >
+    <View style={style.listing}>
       <Pressable
         onPress={navigateToDetails}
-      ><Text>{starship?.name}</Text></Pressable>
+      >
+        {fontsLoaded ? <Text style={{ fontFamily: 'Orbitron_400Regular' }}>{starship?.name}</Text> : <></>}
+      </Pressable>
     </View>
   )
 }

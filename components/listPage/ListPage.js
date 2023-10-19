@@ -13,11 +13,6 @@ import { generateListingComponent } from './ListPage.utils'
 export function ListPage ({ starships, navigateToDetails }) {
   return (
     <View style={style.container}>
-      <Text> Hi there</Text>
-      <Pressable
-        onPress={navigateToDetails}
-        style={style.button}
-      ><Text>Click here</Text></Pressable>
       <FlatList
           data={starships}
           renderItem={generateListingComponent(navigateToDetails)}
