@@ -8,8 +8,7 @@ exports[`DetailPage should render 1`] = `
     }
   }
 >
-  <Text>
-     Hi there
-  </Text>
+  <Text />
+  <Text />
 </View>
 `;

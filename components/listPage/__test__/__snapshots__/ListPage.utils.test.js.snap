@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateListingComponent should toggle from true to false 1`] = `
+<Listing
+  navigateToDetails={[Function]}
+  starship={
+    {
+      "model": "Big Ship Model",
+      "name": "Big Ship",
+    }
+  }
+/>
+`;

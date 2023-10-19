@@ -18,5 +18,8 @@ exports[`ListPage should render 1`] = `
       Click here
     </Text>
   </Memo(Pressable)>
+  <FlatList
+    renderItem={[Function]}
+  />
 </View>
 `;
