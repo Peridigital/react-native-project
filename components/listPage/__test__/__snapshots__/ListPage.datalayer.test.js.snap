@@ -2,6 +2,7 @@
 
 exports[`ListPageDatalayer should render 1`] = `
 <ListPage
+  hasFontsLoaded={false}
   navigateToDetails={[Function]}
 />
 `;

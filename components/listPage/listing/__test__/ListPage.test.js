@@ -9,4 +9,10 @@ describe('Listing', () => {
 
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('should render text when font loaded', () => {
+    const wrapper = shallow(<Listing hasFontsLoaded={true} />)
+
+    expect(wrapper).toMatchSnapshot()
+  })
 })

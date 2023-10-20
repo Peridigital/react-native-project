@@ -1,11 +1,196 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Listing should render 1`] = `
-<View>
-  <Memo(Pressable)
-    onPress={[Function]}
+<Memo(Pressable)
+  onPress={[Function]}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#7E4033",
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "margin": 5,
+        "overflow": "hidden",
+        "padding": 2,
+      }
+    }
   >
-    <Text />
-  </Memo(Pressable)>
-</View>
+    <View
+      style={
+        {
+          "backgroundColor": "#D0A499",
+          "height": "100%",
+          "left": 10,
+          "position": "absolute",
+          "top": 0,
+          "transform": "rotate(36deg)",
+          "width": "50%",
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "backgroundColor": "#0C0D12",
+          "borderBottomRightRadius": 50,
+          "borderTopRightRadius": 50,
+          "justifyContent": "space-between",
+          "overflow": "hidden",
+          "padding": 15,
+          "position": "relative",
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "https://static.wikia.nocookie.net/starwars/images/2/24/TantiveIV-TSWB.png/revision/latest?cb=20221006055135",
+          }
+        }
+        style={
+          {
+            "height": "1000%",
+            "objectFit": "contain",
+            "position": "absolute",
+            "right": -50,
+            "top": -50,
+            "width": "90%",
+          }
+        }
+      />
+      <UNDEFINED
+        colors={
+          [
+            "#0C0D12",
+            "rgba(0,0,0,0)",
+          ]
+        }
+        end={
+          {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        start={
+          {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          {
+            "height": "400%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
+      <React.Fragment />
+    </View>
+  </View>
+</Memo(Pressable)>
+`;
+
+exports[`Listing should render text when font loaded 1`] = `
+<Memo(Pressable)
+  onPress={[Function]}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#7E4033",
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "margin": 5,
+        "overflow": "hidden",
+        "padding": 2,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#D0A499",
+          "height": "100%",
+          "left": 10,
+          "position": "absolute",
+          "top": 0,
+          "transform": "rotate(36deg)",
+          "width": "50%",
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "backgroundColor": "#0C0D12",
+          "borderBottomRightRadius": 50,
+          "borderTopRightRadius": 50,
+          "justifyContent": "space-between",
+          "overflow": "hidden",
+          "padding": 15,
+          "position": "relative",
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "https://static.wikia.nocookie.net/starwars/images/2/24/TantiveIV-TSWB.png/revision/latest?cb=20221006055135",
+          }
+        }
+        style={
+          {
+            "height": "1000%",
+            "objectFit": "contain",
+            "position": "absolute",
+            "right": -50,
+            "top": -50,
+            "width": "90%",
+          }
+        }
+      />
+      <UNDEFINED
+        colors={
+          [
+            "#0C0D12",
+            "rgba(0,0,0,0)",
+          ]
+        }
+        end={
+          {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        start={
+          {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          {
+            "height": "400%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      />
+    </View>
+  </View>
+</Memo(Pressable)>
 `;
