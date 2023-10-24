@@ -30,6 +30,7 @@ export const style = StyleSheet.create({
     top: 0
   },
   title: {
+    fontFamily: 'Orbitron_400Regular',
     color: theme.primaryText
   },
   shipImage: {

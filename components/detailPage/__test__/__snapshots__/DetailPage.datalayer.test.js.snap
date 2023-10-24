@@ -1,3 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DetailPageDatalayer should render 1`] = `<DetailPage />`;
+exports[`DetailPageDatalayer should render 1`] = `
+<DetailPage
+  hyperdriveAnimation={
+    {
+      "right": undefined,
+      "scale": undefined,
+      "top": undefined,
+    }
+  }
+/>
+`;
