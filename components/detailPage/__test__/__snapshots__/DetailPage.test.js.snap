@@ -4,11 +4,307 @@ exports[`DetailPage should render 1`] = `
 <View
   style={
     {
-      "gap": 15,
+      "alignItems": "center",
+      "backgroundColor": "#0C0D12",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
     }
   }
 >
-  <Text />
-  <Text />
+  <UNDEFINED
+    colors={
+      [
+        "#010205",
+        "#0C0D12",
+      ]
+    }
+    style={
+      {
+        "height": "100%",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  />
+  <UNDEFINED
+    source={
+      {
+        "uri": "https://static.wikia.nocookie.net/starwars/images/2/24/TantiveIV-TSWB.png/revision/latest?cb=20221006055135",
+      }
+    }
+    style={
+      {
+        "height": "70%",
+        "objectFit": "contain",
+        "position": "absolute",
+        "right": {
+          "value": 0,
+        },
+        "top": {
+          "value": 0,
+        },
+        "transform": [
+          {
+            "scale": {
+              "value": 1,
+            },
+          },
+        ],
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#0C0D12",
+        "borderBottomRightRadius": 150,
+        "borderBottomWidth": 2,
+        "borderColor": "#7E4033",
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+        "padding": 10,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#EAEAEA",
+          "fontFamily": "Orbitron_400Regular",
+          "fontSize": 25,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#EAEAEA",
+          "fontFamily": "Orbitron_400Regular",
+        }
+      }
+    >
+       Credits
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignSelf": "stretch",
+        "backgroundColor": "#0C0D12",
+        "borderColor": "#7E4033",
+        "borderTopWidth": 2,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Speed:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+         MGLT/h
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Cargo Capacity:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+         kg
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Crew:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Passengers:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Provisions:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Length:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+         m
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "margin": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      >
+        Starship Class:
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EAEAEA",
+            "fontFamily": "Orbitron_400Regular",
+          }
+        }
+      />
+    </View>
+  </View>
 </View>
 `;

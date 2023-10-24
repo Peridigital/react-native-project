@@ -2,7 +2,7 @@
 import { generateNavigateToDetailsWithId, generateListingComponent } from '../ListPage.utils'
 
 describe('generateNavigateToDetailsWithId', () => {
-  it('should toggle from true to false', () => {
+  it('should call navigate function', () => {
     const navigation = {
       navigate: jest.fn()
     }
@@ -17,7 +17,7 @@ describe('generateNavigateToDetailsWithId', () => {
 })
 
 describe('generateListingComponent', () => {
-  it('should toggle from true to false', () => {
+  it('should return listing component', () => {
     const navigateToDetails = jest.fn()
     const wrapper = generateListingComponent(navigateToDetails)({ item: { name: 'Big Ship', model: 'Big Ship Model' } })
 

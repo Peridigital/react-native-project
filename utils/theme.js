@@ -1,6 +1,7 @@
 const colors = {
   primaryBackground: '#0C0D12',
   secondaryBackground: '#151821',
+  spaceBackground: '#010205',
   primaryText: '#EAEAEA',
   border: '#7E4033',
   borderHighlight: '#D0A499'
